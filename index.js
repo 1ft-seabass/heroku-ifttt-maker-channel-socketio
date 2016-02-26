@@ -65,11 +65,11 @@ app.get('/', function(request, response) {
 });
 
 // IFTTTから送信されてきた情報をWEBに通知する
-app.post('/ifttt/recieve', function(request, response) {
+app.post('/ifttt/receive', function(request, response) {
   response.set('Content-Type', 'application/json');
-  console.log('---------- input[/ifttt/recieve]');
+  console.log('---------- input[/ifttt/receive]');
   console.log(request.body);
-  response.send("{'request':'/ifttt/recieve'}");
+  response.send("{'request':'/ifttt/receive'}");
   io.emit( "receiveIFTTT" , request.body );
 });
 
