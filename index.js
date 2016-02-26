@@ -70,7 +70,7 @@ app.post('/ifttt/receive', function(request, response) {
   console.log('---------- input[/ifttt/receive]');
   console.log(request.body);
   response.send("{'request':'/ifttt/receive'}");
-  io.emit( "receiveIFTTT" , request.body );
+  io.emit( "receiveHeroku" , request.body );
 });
 
 http.listen(app.get('port'), function() {
