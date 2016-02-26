@@ -1,0 +1,30 @@
+{
+  "name": "ifttt-maker-channel-socketio",
+  "version": "1.0.0",
+  "description": "IFTTT Maker Channel SocketIO Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "~4.9.8",
+    "body-parser": "~1.14.2",
+    "socket.io": "~1.4.5",
+    "request": "~2.69.0"
+  },
+  "engines": {
+    "node": "0.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1ft-seabass/heroku-ifttt-maker-channel-socketio"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "ifttt",
+    "socketio"
+  ],
+  "license": "MIT"
+}

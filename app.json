@@ -1,0 +1,11 @@
+{
+  "name": "ifttt-maker-channel-socketio",
+  "description": "IFTTT Maker Channel SocketIO Server",
+  "repository": "https://github.com/1ft-seabass/heroku-ifttt-maker-channel-socketio",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "milkcocoa"],
+  "env": {
+    "IFTTT_EVENT_NAME":"sendIFTTT",
+    "IFTTT_SECURITY_KEY": ""
+  }
+}
